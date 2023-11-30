@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Click Story</title>
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.min.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <header class="header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                  <a class="navbar-logo" href="#">
+                <img src="images/icons/logo.svg" alt="logo">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Истории</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Авторы</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link" href="#" >
+                            Каталог
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Action</a></li>
+                          <li><a class="dropdown-item" href="#">Another action</a></li>
+                          <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                   <button class="btn" type="submit" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#authModal" >Войти</button>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!-- main -->
+        <main class="main">
+        <div class="container">
+          <nav class="breadcrumb-nav">
+            <ol class="breadcrumb align-items-center mb-0">
+              <li>
+              <a class="breadcrumb-link" href="#!">Главная</a>
+            </li>
+              <img src="images/icons/arrow-right.svg" alt="arrow-right">
+              <a class="breadcrumb-link" href="#!">Новости</a>
+            </ol>
+            </nav>
+            <h1 class="title">Новости</h1>
+
+          <div class="news">
+            <div class="row gy-5">
+              <div class="col-lg-4 col-md-6" >
+              <img src="images/icons/news-img.png" alt="news-img" class="w-100">
+              <span class="news-date">18.05.2023</span>
+              <h4 class="news-title">Персонажу «Вася» добавлен костюм единорога</h4>
+             <div class="text-end">
+              <a class="btn btn-big text-right" href="#!">Подробнее</a>
+             </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6">
+                <img src="images/icons/news-img.png" alt="news-img" class="w-100">
+                <span class="news-date">18.05.2023</span>
+                <h4 class="news-title">Персонажу «Вася» добавлен костюм единорога</h4>
+               <div class="text-end">
+                <a class="btn btn-big text-right" href="#!">Подробнее</a>
+               </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6">
+                  <img src="images/icons/news-img.png" alt="news-img" class="w-100">
+                  <span class="news-date">18.05.2023</span>
+                  <h4 class="news-title">Персонажу «Вася» добавлен костюм единорога</h4>
+                 <div class="text-end">
+                  <a class="btn btn-big text-right" href="#!">Подробнее</a>
+                 </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6">
+                    <img src="images/icons/news-img.png" alt="news-img" class="w-100">
+                    <span class="news-date">18.05.2023</span>
+                    <h4 class="news-title">Персонажу «Вася» добавлен костюм единорога</h4>
+                   <div class="text-end">
+                    <a class="btn btn-big text-right" href="#!">Подробнее</a>
+                   </div>
+                    </div>
+      
+                    <div class="col-lg-4 col-md-6">
+                      <img src="images/icons/news-img.png" alt="news-img" class="w-100">
+                      <span class="news-date">18.05.2023</span>
+                      <h4 class="news-title">Персонажу «Вася» добавлен костюм единорога</h4>
+                     <div class="text-end">
+                      <a class="btn btn-big text-right" href="#!">Подробнее</a>
+                     </div>
+                      </div>
+      
+      
+                      <div class="col-lg-4 col-md-6">
+                        <img src="images/icons/news-img.png" alt="news-img" class="w-100">
+                        <span class="news-date">18.05.2023</span>
+                        <h4 class="news-title">Персонажу «Вася» добавлен костюм единорога</h4>
+                       <div class="text-end">
+                        <a class="btn btn-big text-right" href="#!">Подробнее</a>
+                       </div>
+                        </div>
+
+
+            </div>
+          </div>
+
+        </div>
+
+        </main>
+
+        <!-- footer -->
+        <footer class="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-2">
+                <img src="images/icons/logo.svg" alt="logo">
+                <span class="footer-cpoyright">© 2023 Click Story <br> Все права защищены</span>
+              </div>
+              <div class="col-2 offset-1">
+                <h4 class="footer-list__title">Пользователю</h4>
+                <ul class="footer-nav">
+                  <li class="footer-list">
+                    Правила проекта
+                  </li>
+                  <li class="footer-list">
+                    Личный кабинет
+                  </li>
+                  <li class="footer-list">
+                    Новости
+                  </li>
+                </ul>
+                <span class="design-name mt-64">Дизайн <br> <a href="#!"> <br> Таня Хайден</a>
+                </span>
+              </div>
+
+              <div class="col-3">
+                <h4 class="footer-list__title">Информация</h4>
+                <ul class="footer-nav">
+                  <li class="footer-list">
+                    Конфиденциальность
+                  </li>
+                  <li class="footer-list">
+                    Пользовательское соглашение
+                  </li>
+                </ul>
+              </div>
+
+              <div class="col-3">
+                <h4 class="footer-list__title">Обратная связь</h4>
+                <ul class="footer-nav">
+                  <li class="footer-list">
+                    Написать в поддержку
+                  </li>
+                  <li class="footer-list">
+                    По поводу рекламы и сотрудничества пишите на <a class="brand-gmail" href="#!">info@click-story.ru</a>
+                  </li>
+                  <a class="icon-list" href="#!">
+                  <img src="images/icons/wk-icon.svg" alt="wk-icon">
+                  </a>
+                </ul>
+                <div class="footer-carts text-end mt-64">
+                <a href="#!">
+                  <img src="images/icons/mir-icon.svg" alt="mir-icon">
+                </a>
+
+                <a href="#!">
+                  <img src="images/icons/visa-icon.png" alt="mir-icon">
+                </a>
+
+                <a href="#!">
+                  <img src="images/icons/master-icon.svg" alt="master-icon">
+                </a>
+                </div>
+              </div>
+
+                
+              </div>
+            </div>
+          </div>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-title__box">
+        <h5 class="modal-title text-center" id="exampleModalLabel">Авторизация</h5>
+        <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        <label class="mb-3">Email</label>
+        <input type="email" placeholder="geek.tanya.hayden@gmail.com" name="email" class="form-control">
+
+        <label class="my-3">Пароль</label>
+        <input type="password" placeholder="••••••••••••••••" name="password" class="form-control">
+      <button class="btn w-100 my-3">Войти</button>
+
+      <button class="btn-link mx-auto d-block">Забыли пароль?</button>
+      <span class="my-3 d-block text-center">Ещё нет аккаунта?</span>
+      <button class="btn w-100" data-bs-toggle="modal" data-bs-target="#registerModal">Зарегистрироваться</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="registerModal" tabindex="-1" aria-labelledby="registerModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-title__box">
+        <h5 class="modal-title text-center" id="registerModalLabel">Регистрация</h5>
+        <button type="button" class="btn-close position-absolute" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body p-0">
+        
+      <button class="btn w-100">Зарегистрироваться</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+        <!-- bootstrap js -->
+        <script src="libs/bootstrap/js/bootstrap.min.js"></script>
+        
+    </div>
+    
+</body>
+</html>
